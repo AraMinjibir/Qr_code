@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container2 {
+    background-color: hsl(212, 45%, 89%);
+    width: 375px;
+    height: 500px;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 300px;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+h3 {
+    width: 210px;
+    color: hsl(218, 44%, 22%) ;
+    margin-bottom: 15px;
+    font-weight: 700px;
+}
+p {
+    max-width: 260px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+.content2 {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    width: 280px;
+    height: 415px;
+    border-radius: 10px;
+}
+.imag {
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.adv {
+    width: 210px;
+    color: hsl(218, 44%, 22%) ;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.scan {
+    max-width: 290px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    padding: 0 15px;   
+}
+a {
+    text-decoration: none;
+    font-size: x-large;
+    text-align: start;
+    font-family: fantasy;
+}
